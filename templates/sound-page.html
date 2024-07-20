@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sound Information</title>
+        <link rel="stylesheet" href="{{url_for('css', path = "sound.css")}}">
+    </head>
+    <body>
+        <audio controls src="{{ url_for('sound', path = data.name) }}"></audio>
+    </body>
+</html>

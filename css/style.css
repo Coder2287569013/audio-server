@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(20, 19, 31);
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+}
