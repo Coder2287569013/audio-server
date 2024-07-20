@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(20, 19, 31);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

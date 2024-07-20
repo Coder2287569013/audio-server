@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('css', path="style.css")}}">
+        {% block title %}
+        <title>List of Sounds</title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="audioContainer">
+            {% block divHeader %}
+            <h1>List of Sounds:</h1>
+            {% endblock %}
+            <ul>
+            {% for sound in data.list %}
+                <li><img src="{{url_for('img', path="file.png")}}"><a href="/audio-sounds/{{sound}}">{{sound}}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+    </body>
+</html>
